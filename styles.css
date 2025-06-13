@@ -1,0 +1,343 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #FAFAFA;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(otrafoto.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile-name {
+    font-size: 18px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    color: black;
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+
+
+.BoxRedes a {
+    font-size: 24px;
+    margin: 0 15px;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.BoxRedes a:hover {
+    transform: scale(1.2);
+    color: #ffcc00;
+}
+
+
+img{
+    width: 40px;
+    
+}
+
+.fotos{
+    width: 200px;
+    margin-right: 30px;
+}
+.NombrePerfil{
+    font-weight: 700;
+}
+.Bienvenidos{
+    text-align: center;
+    margin-bottom: 1px;
+    margin-left: 315px;
+    margin-right: 20px;
+    margin-top: 70px;
+    padding: 10px;
+    width: 600px;
+    justify-content: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+
+
+}
+
+.Rchiquito{
+    text-align: center;
+    color:white;
+}
+
+.Tacercademi{
+    text-align: center;
+    width: 300px;
+    margin-left: 455px;
+    margin-bottom: 5px;
+    justify-content: center;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.AcercaDeMi{
+    text-align: center;
+    width: 600px;
+    margin-left: 310px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color:white;
+}
+
+.Habilidades{
+    width: 600px;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.logo-card {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 60px;
+  height: auto;
+  animation: spin 4s linear infinite;
+  color: white;
+}
+
+.logo-big {
+  width: 140px; /* Aumentá este valor según necesites */
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+
+
+
+.TProyectos{
+    width: 600px;
+    justify-content: center;
+    margin-left: 300px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+
+.MiniResumen{
+    text-align: center; 
+}
+
+.Contenedor1{
+    display: flex;    
+    color:white;
+    margin-bottom: 30px;
+}
+
+.Contenedor2{
+    display: flex;
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.BTNproyecto{
+    text-align: center;
+    margin-left: 330px;
+    background-color: #ac0000;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.BtnFormulario{
+    text-align: center;
+    background-color: #ac0000;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+.TituloContactos{
+    color:white;
+    margin-left: 300px;
+    width: 600px;
+    text-align: center;
+}
+
+.Formulario{
+    color: white;
+    justify-content: center;
+    width: 650px;
+    text-align: center;
+    margin-left: 300px;
+    height: 510px;
+}
+
+textarea{
+    height: 180px;
+    width: 300px;
+}
+
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+
+
+
+
+
+
+
+
+
+
+
+#video-fondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+@keyframes rotacion3D {
+    0% {
+    transform: perspective(500px) rotateY(0deg);
+    }
+    50% {
+    transform: perspective(500px) rotateY(15deg);
+    }
+    100% {
+    transform: perspective(500px) rotateY(0deg);
+    }
+}
+
+.rotar-3d {
+    animation: rotacion3D 0.6s ease;
+}
+
+@keyframes colorChange {
+    0% { color: #ffd900c8; }
+    50% { color: #00ffffc0; }
+    100% { color: #ff0000cb; }
+}
+
+
+h1, h2 {
+    animation: colorChange 3s infinite alternate;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
