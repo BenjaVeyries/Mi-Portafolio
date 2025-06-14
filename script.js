@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.querySelectorAll('.BTNproyecto').forEach(boton => {
     boton.addEventListener('mouseover', () => {
-      boton.classList.add('rotar-3d');
-      setTimeout(() => {
+    boton.classList.add('rotar-3d');
+    setTimeout(() => {
         boton.classList.remove('rotar-3d');
-      }, 600); 
+    }, 600); 
     });
-  });
+    });

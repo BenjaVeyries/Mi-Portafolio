@@ -83,7 +83,6 @@ footer {
 
 img{
     width: 40px;
-    
 }
 
 .fotos{
@@ -140,26 +139,26 @@ img{
 }
 
 .logo-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 .logo-card {
-  width: 120px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-img {
-  width: 60px;
-  height: auto;
-  animation: spin 4s linear infinite;
-  color: white;
+    width: 60px;
+    height: auto;
+    animation: spin 4s linear infinite;
+    color: white;
 }
 
 .logo-big {
@@ -167,16 +166,13 @@ img{
 }
 
 @keyframes spin {
-  from {
+    from {
     transform: rotateY(0deg);
-  }
-  to {
+    }
+    to {
     transform: rotateY(360deg);
-  }
+    }
 }
-
-
-
 
 .TProyectos{
     width: 600px;
@@ -185,8 +181,6 @@ img{
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
-
-
 
 .MiniResumen{
     text-align: center; 
@@ -235,13 +229,6 @@ img{
     width: 150px;
 }
 
-
-
-
-
-
-
-
 .TituloContactos{
     color:white;
     margin-left: 300px;
@@ -263,22 +250,11 @@ textarea{
     width: 300px;
 }
 
-
 @keyframes floating {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-5px); }
-  100% { transform: translateY(0px); }
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
 }
-
-
-
-
-
-
-
-
-
-
 
 #video-fondo {
     position: fixed;
@@ -312,32 +288,9 @@ textarea{
     100% { color: #ff0000cb; }
 }
 
-
 h1, h2 {
     animation: colorChange 3s infinite alternate;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 10px 20px;
     border-radius: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
